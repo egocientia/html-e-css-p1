@@ -4,10 +4,17 @@ body {
     background: #CCCCCC
 }
 
+h1{
+
+}
+
 p {
 
 }
 
-strong{
+#missao{
+    font-size: 20px;
+}
+em strong{
     color: red;
 }
