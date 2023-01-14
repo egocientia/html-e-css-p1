@@ -1,10 +1,11 @@
-
-body {
-    
-}
+body {}
 
 #banner {
-    width:100%;
+    width: 100%;
+}
+
+.tituloprincipal {
+    padding-left: 20px;
 }
 
 .principal {
@@ -13,41 +14,34 @@ body {
     padding: 30px;
 }
 
-h1{
-
+.titulocentralizado {
+    text-align: center;
 }
 
-p {
-
-}
-
-#missao{
+#missao {
     font-size: 20px;
 }
-em strong{
+
+em strong {
     color: red;
 }
 
-.itens{
+.itens {
     font-style: italic;
 }
 
-.beneficios{
+.beneficios {
     background-color: #FFFFFF;
     padding: 20px;
 }
 
-h2{
-    text-align: center;
-}
-
-ul{
+ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
 }
 
-.imagemb{
+.imagemb {
     width: 50%;
 }
