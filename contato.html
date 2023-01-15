@@ -27,32 +27,29 @@
     <main>
         <form>
             <label for="nomesobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome">
+            <input type="text" id="nomesobrenome" class="inputpadrao">
 
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="inputpadrao">
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input type="text" id="telefone" class="inputpadrao">
 
             <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="10" id="mensagem"></textarea>
+            <textarea cols="70" rows="10" id="mensagem" class="inputpadrao"></textarea>
 
             <div>
                 <p>Como prefere nosso contato?</p>
 
-                <label for="radio-email">Email</label>
-                <input type="radio" name="contato" value="Email" id="radio-email">
-
-                <label for="radio-telefone">Ligação</label>
-                <input type="radio" name="contato" value="telefone" id="radio-telefone">
-
-                <label for="radio-whats">Whatsapp</label>
-                <input type="radio" name="contato" value="whatsapp" id="radio-whats">
+                <label for="radio-email"><input type="radio" name="contato" value="Email" id="radio-email">Email</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Ligação</label>
+                
+                <label for="radio-whats"><input type="radio" name="contato" value="whatsapp" id="radio-whats">Whatsapp</label>
 
             </div>
             
-            <label><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+            <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
             
             <input type="submit" value="Enviar Formulário">
             
