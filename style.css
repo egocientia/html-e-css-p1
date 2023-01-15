@@ -1,3 +1,5 @@
+/* cabeçalho */
+
 header {
     background: #CCCCCC;
     padding: 20px 0;
@@ -34,10 +36,18 @@ nav a:hover {
 
 }
 
+/* Css da home */
+
 main {
     width: 940px;
     margin: 0 auto;
 }
+
+.banner {
+    width: 100%;
+}
+
+/* Css da pagina de produtos */
 
 .produtos {
     width: 940px;
@@ -83,6 +93,8 @@ main {
     font-weight: bold;
     margin: 10px 0 0;
 }
+
+/* Css da pagina de contato */
 
 form {
     margin: 40px 0;
@@ -138,6 +150,8 @@ th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+/* Css da rodape */
 
 footer {
     text-align: center;
