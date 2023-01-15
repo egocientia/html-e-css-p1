@@ -33,6 +33,11 @@ nav a:hover{
 
 }
 
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
 footer{
     text-align: center;
     background: url(imagens/bg.jpg);
