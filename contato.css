@@ -1,25 +1,26 @@
-header{
+header {
     background: #CCCCCC;
     padding: 20px 0;
 }
 
-.caixa{
+.caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
-nav{
+
+nav {
     position: absolute;
     top: 110px;
     right: 0;
 }
 
-nav li{
+nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
 
-nav a{
+nav a {
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
@@ -27,39 +28,40 @@ nav a{
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     color: #dd9a15;
     text-decoration: underline;
 
 }
 
-main{
+main {
     width: 940px;
     margin: 0 auto;
 }
 
-form{
+form {
     margin: 40px 0;
 }
 
-form label, form legend {
+form label,
+form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px 0;
 }
 
-.inputpadrao{
+.inputpadrao {
     display: block;
     margin: 0 0 20px 0;
     padding: 10px 10px;
     width: 50%;
 }
 
-.checkbox{
+.checkbox {
     margin: 20px 0;
 }
 
-.enviar{
+.enviar {
     width: 40%;
     padding: 15px 0;
     background: orange;
@@ -71,33 +73,34 @@ form label, form legend {
     transition: 1s all;
 }
 
-.enviar:hover{
+.enviar:hover {
     background: darkorange;
     transform: scale(1.1);
 }
 
-table{
+table {
     margin: 20px 0 40px;
 }
 
-thead{
+thead {
     background: #555555;
     font-weight: bold;
     color: white;
 }
 
-td, th{
+td,
+th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
 
-footer{
+footer {
     text-align: center;
     background: url(imagens/bg.jpg);
     padding: 40px 0;
 }
 
-.copyright{
+.copyright {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0 0;
