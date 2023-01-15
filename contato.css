@@ -76,6 +76,21 @@ form label, form legend {
     transform: scale(1.1);
 }
 
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    font-weight: bold;
+    color: white;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
 footer{
     text-align: center;
     background: url(imagens/bg.jpg);
