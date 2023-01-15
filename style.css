@@ -118,6 +118,10 @@ main {
     line-height: 1,5;
 }
 
+.itens::before {
+    content: "✶ ";
+}
+
 .itens:first-child {
     font-weight: bold;
 }
@@ -179,6 +183,11 @@ main {
 }
 
 /* Css da pagina de contato */
+
+.maincontato {
+    width: 940px;
+    margin: 0 auto;
+}
 
 form {
     margin: 40px 0;
