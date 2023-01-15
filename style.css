@@ -47,6 +47,32 @@ main {
     width: 100%;
 }
 
+.tituloprincipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em 0;
+}
+
+.utensilios {
+    width: 150px;
+}
+
+.principal p {
+    margin: 0 0 1em 0;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagemb {
+    width: 50%;
+}
+
 /* Css da pagina de produtos */
 
 .produtos {
